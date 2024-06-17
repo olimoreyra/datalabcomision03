@@ -1,0 +1,107 @@
+* 
+{
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+    body {
+        background-color: wh;
+        font-family: "Montserrat", sans-serif;
+        font-size: 15px;
+    }
+
+    box-sizing: border-box;
+    margin: 10;
+    text-align: center;
+}
+p{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align:center
+    
+}
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 40px;
+    width: 150px; /* Ajusta el ancho de la caja de texto */
+    height: 30px;
+    display: block;
+    margin: 10px auto; /* margen superior e inferior en 10px y margen de izquierda y derecha en auto para centrarlo */
+    line-height: 23px;
+    padding: 3px;; 
+    transition: all 0.5s ease; /* Transición suave para todos los cambios */
+}
+
+header a:hover {
+    background-color: orangered;
+    color: white;
+    border-color: white;
+
+}
+
+
+header {
+    width: 100%;
+    background-color: orchid;
+    animation-name: fondoanimado;
+    animation-duration: 4s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    color: white;
+    padding: 40px;
+}
+
+@keyframes fondoanimado {
+    from{background-color: rgb(240, 85, 13)}
+    
+    to {background-color: orchid }
+    
+    
+    }
+p {
+    color: black;
+}
+
+main {
+    width: 90%;
+    margin: 10px auto;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div {
+    width: 48%;
+    margin: 10px;
+}
+
+#video {
+    width: 90%;
+    margin: 10px auto;
+}
+
+    footer {
+        background-image: url(../imagenes/fondo.jpg);
+        width: 100%;
+        background-color: lightgrey;
+        background-position: center;
+        background-size: cover;
+        color: white;
+        text-align: center;
+        padding: 40px 0;
+        position: relative;
+    }  
+    footer p {
+        font-size: 14px;
+    }
+
+img, video {
+    width: 100%;
+}
+
+
+
